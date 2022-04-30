@@ -13,8 +13,9 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'iMES', // Usually your GitHub org/user name.
-  projectName: 'iMES', // Usually your repo name.
+  organizationName: 'i-MES', // Usually your GitHub org/user name.
+  projectName: 'iMES-doc', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
