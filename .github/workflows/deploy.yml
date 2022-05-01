@@ -28,7 +28,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.DEPLOY_KEY_PRIVATE }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
           external_repository: i-MES/i-mes.github.io
