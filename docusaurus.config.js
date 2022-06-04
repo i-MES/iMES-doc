@@ -49,7 +49,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'user-guide/index',
+            docId: 'user-guide/intro',
             position: 'left',
             label: '使用指南',
           },

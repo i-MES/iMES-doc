@@ -14,7 +14,7 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/user-guide/index">
+          <Link className="button button--secondary button--lg" to="/docs/user-guide/intro">
             5 分钟快速上手 iMES ⏱️
           </Link>
         </div>

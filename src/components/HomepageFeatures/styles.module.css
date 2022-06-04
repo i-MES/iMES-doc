@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.features .ul {
+  margin: auto;
+}
+
 .featureSvg {
   height: 200px;
   width: 200px;
