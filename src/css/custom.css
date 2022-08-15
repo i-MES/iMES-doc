@@ -38,3 +38,35 @@
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+  font-size: 90%;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+}
+img[src$="#size20"] {
+  width: 20%;
+}
+img[src$="#size40"] {
+  width: 40%;
+}
+img[src$="#size60"] {
+  width: 60%;
+}
+img[src$="#size80"] {
+  width: 80%;
+}
+img[src$="#size90"] {
+  width: 90%;
+}

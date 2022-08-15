@@ -24,11 +24,35 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          remarkPlugins: [
+            [
+              require("mdx-mermaid"),
+              {
+                mermaid: {
+                  theme: "neutral",
+                  themeVariables: {
+                    primaryColor: "lime",
+                  },
+                },
+              },
+            ]
+          ]
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          remarkPlugins: [
+            [
+              require("mdx-mermaid"),
+              {
+                mermaid: {
+                  theme: "neutral",
+                  themeVariables: {
+                    primaryColor: "lime",
+                  },
+                },
+              },
+            ]
+          ]
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,13 +77,13 @@ const config = {
             position: 'left',
             label: '使用指南',
           },
-          {
-            type: 'doc',
-            docId: 'dev-manu/index',
-            position: 'left',
-            label: '开发手册',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // {
+          //   type: 'doc',
+          //   docId: 'dev-manu/index',
+          //   position: 'left',
+          //   label: '开发手册',
+          // },
+          { to: '/blog', label: 'Blog', position: 'right' },
           {
             href: 'https://github.com/i-MES/',
             label: 'GitHub',
