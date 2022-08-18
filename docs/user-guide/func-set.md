@@ -34,7 +34,7 @@ title: 功能集
   - 选中测试项目录。
   - iMES 搜索并呈现到测试项页面，打开每个测试项可以查看对应测试项搜索出的信息。
 
-![](https://cdn.jsdelivr.net/gh/i-MES/data/img/select-testcase-folder.gif)
+![](http://imes-image.test.upcdn.net/select-testcase-folder.gif)
 
 ### 测试项编排
 
@@ -43,8 +43,7 @@ title: 功能集
 - 典型场景:
   - ...
 
-![](https://cdn.jsdelivr.net/gh/i-MES/data/img/drag-testclass.gif)
-
+![](http://imes-image.test.upcdn.net/drag-testclass.gif)
 
 ### 测试项并行执行
 
@@ -53,7 +52,7 @@ title: 功能集
 - 典型场景:
   - ...
 
-![](https://cdn.jsdelivr.net/gh/i-MES/data/img/parall-test.gif)
+![](http://imes-image.test.upcdn.net/parall-test.gif)
 
 ### 测试实体并行测试
 
@@ -62,7 +61,7 @@ title: 功能集
 - 典型场景:
   - ...
 
-![](https://cdn.jsdelivr.net/gh/i-MES/data/img/parall-entities.gif)
+![](http://imes-image.test.upcdn.net/parall-entities.gif)
 
 ### 测试项部署
 
@@ -70,7 +69,6 @@ title: 功能集
 - 用户: PE
 - 典型场景:
   - ...
-
 
 ### 测试故障诊断
 
