@@ -85,7 +85,7 @@ const config = {
           // },
           { to: '/blog', label: 'Blog', position: 'right' },
           {
-            href: 'https://github.com/i-MES/',
+            to: 'https://github.com/i-MES/',
             label: 'GitHub',
             position: 'right',
           },

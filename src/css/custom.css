@@ -54,7 +54,6 @@ svg {
 img {
   display: block;
   margin: 0px auto;
-  width: 80%;
 }
 img[src$="#size20"] {
   width: 20% !important;
